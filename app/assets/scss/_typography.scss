@@ -54,6 +54,12 @@ a {
   &:hover {
     color: var(--color-primary-dark);
   }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
 }
 
 // ── Inline elements ─────────────────────────────────────────

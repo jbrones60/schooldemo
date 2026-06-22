@@ -48,7 +48,7 @@ withDefaults(defineProps<{
         </ol>
       </nav>
 
-      <span v-if="eyebrow" class="eyebrow" style="color: inherit; opacity: 0.8;">
+      <span v-if="eyebrow" class="eyebrow page-hero__eyebrow">
         {{ eyebrow }}
       </span>
 
@@ -65,6 +65,12 @@ withDefaults(defineProps<{
 </template>
 
 <style scoped>
+/* Eyebrow on dark hero background — inherits white, reduced opacity */
+.page-hero__eyebrow {
+  color: inherit;
+  opacity: 0.8;
+}
+
 .page-hero {
   background-color: var(--color-primary);
   color: var(--color-white);

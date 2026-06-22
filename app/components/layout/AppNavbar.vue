@@ -40,7 +40,7 @@ onUnmounted(() => {
     <div class="container navbar__inner">
 
       <!-- ── Logo ────────────────────────────────────────────── -->
-      <NuxtLink to="/" class="navbar__logo" aria-label="Bright Future School home" @click="closeMenu">
+      <NuxtLink to="/" class="navbar__logo" :aria-label="`${schoolInfo.name} — home`" @click="closeMenu">
         <!-- Real logo image — uncomment when /images/logo/logo.svg is available -->
         <!-- <img :src="schoolInfo.logo" :alt="schoolInfo.logoAlt" class="navbar__logo-img" /> -->
         <span class="navbar__logo-text">

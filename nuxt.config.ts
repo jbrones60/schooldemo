@@ -8,6 +8,17 @@ export default defineNuxtConfig({
   // Global CSS entry point
   css: ['~/assets/scss/main.scss'],
 
+  // Global <head> defaults (page-level SEO is set via useSeo() composable)
+  app: {
+    head: {
+      htmlAttrs: { lang: 'en' },
+      meta: [
+        { property: 'og:type',   content: 'website' },
+        { name: 'theme-color',   content: '#1455d9' },
+      ],
+    },
+  },
+
   // Vite SCSS config — use modern sass compiler to suppress legacy warnings
   vite: {
     css: {

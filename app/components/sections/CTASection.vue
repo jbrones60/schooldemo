@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useId } from 'vue'
+
 interface CtaItem {
   label: string
   to?: string
@@ -16,21 +18,27 @@ withDefaults(defineProps<{
 }>(), {
   variant: 'primary',
 })
+
+const titleId = useId()
 </script>
 
 <template>
   <section
     :class="variant === 'soft' ? 'section-soft' : 'section-primary'"
-    aria-labelledby="cta-title"
+    :aria-labelledby="titleId"
   >
     <div class="container cta-inner">
 
-      <span v-if="eyebrow" class="eyebrow" :style="variant === 'primary' ? 'color: var(--color-accent)' : ''">
+      <span
+        v-if="eyebrow"
+        class="eyebrow cta-eyebrow"
+        :class="{ 'cta-eyebrow--primary': variant === 'primary' }"
+      >
         {{ eyebrow }}
       </span>
 
       <h2
-        id="cta-title"
+        :id="titleId"
         :class="variant === 'primary' ? 'section-title-white' : 'section-title'"
       >
         {{ title }}
@@ -77,6 +85,10 @@ withDefaults(defineProps<{
   text-align: center;
   max-width: 680px;
   margin-inline: auto;
+}
+
+.cta-eyebrow--primary {
+  color: var(--color-accent);
 }
 
 .cta-actions {

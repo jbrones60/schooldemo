@@ -1,6 +1,17 @@
+<script setup lang="ts">
+const seo = useSeo('/')
+</script>
+
 <template>
-  <main>
-    <h1>Home — Phase 1 stub</h1>
-    <p>Full homepage built in Phase 7.</p>
-  </main>
+  <HeroSection />
+  <QuickHighlights />
+  <AboutPreview />
+  <WhyChooseUs />
+  <AcademicsPreview />
+  <FacilitiesPreview />
+  <AdmissionsCTA />
+  <NoticesPreview />
+  <GalleryPreview />
+  <TestimonialsSection />
+  <ContactCTA />
 </template>

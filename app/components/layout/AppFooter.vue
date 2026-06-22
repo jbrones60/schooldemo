@@ -172,9 +172,6 @@ const navCol2 = navigation.slice(navHalf)
   }
 }
 
-// ── Column base ──────────────────────────────────────────────
-.footer-col {}
-
 // ── Branding column ──────────────────────────────────────────
 .footer-school-name {
   font-family: var(--font-heading);
