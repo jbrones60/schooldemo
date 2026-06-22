@@ -1,0 +1,90 @@
+{
+  "overview": {
+    "eyebrow": "Facilities",
+    "title": "A Campus Designed for Excellence",
+    "description": "Bright Future School provides modern, well-maintained facilities that support academic learning, physical development, creative expression, and student safety across all grade levels."
+  },
+
+  "items": [
+    {
+      "id": "smart-classrooms",
+      "icon": "🖥️",
+      "title": "Smart Classrooms",
+      "description": "All classrooms are equipped with interactive smart boards and modern audio-visual tools to make learning engaging and effective. Each classroom is well-ventilated, spacious, and designed for focused, distraction-free learning.",
+      "image": "/images/facilities/smart-classroom.jpg",
+      "imageAlt": "Smart classroom with interactive board at Bright Future School"
+    },
+    {
+      "id": "science-lab",
+      "icon": "🔬",
+      "title": "Science Laboratory",
+      "description": "Our fully equipped science laboratory encourages curiosity and hands-on exploration. Students conduct experiments in Physics, Chemistry, and Biology under the close supervision of experienced science faculty.",
+      "image": "/images/facilities/science-lab.jpg",
+      "imageAlt": "Students conducting an experiment in the science laboratory"
+    },
+    {
+      "id": "computer-lab",
+      "icon": "💻",
+      "title": "Computer Laboratory",
+      "description": "A modern computer lab with up-to-date systems and reliable high-speed internet access prepares students for the digital world. Programming basics, digital literacy, and essential computer skills are taught here.",
+      "image": "/images/facilities/computer-lab.jpg",
+      "imageAlt": "Students working in the computer laboratory"
+    },
+    {
+      "id": "library",
+      "icon": "📚",
+      "title": "Library",
+      "description": "Our library is a quiet sanctuary for reading, research, and self-directed learning. It houses an extensive collection of books, encyclopaedias, magazines, and reference materials suitable for all age groups.",
+      "image": "/images/facilities/library.jpg",
+      "imageAlt": "School library with books and reading area"
+    },
+    {
+      "id": "playground",
+      "icon": "🏃",
+      "title": "Playground & Sports Area",
+      "description": "A spacious outdoor playground with well-maintained areas for cricket, football, basketball, kabaddi, and athletics. Physical education is an integral and valued part of our school programme.",
+      "image": "/images/facilities/playground.jpg",
+      "imageAlt": "School playground and sports field"
+    },
+    {
+      "id": "transport",
+      "icon": "🚌",
+      "title": "School Transport",
+      "description": "We operate a safe, punctual, and reliable school bus service covering major areas of the city. All vehicles are regularly serviced and inspected. Each bus is supervised by a trained attendant at all times.",
+      "image": "/images/facilities/transport.jpg",
+      "imageAlt": "School bus used for student transport"
+    },
+    {
+      "id": "cctv-security",
+      "icon": "🛡️",
+      "title": "CCTV & Campus Security",
+      "description": "Our entire campus operates under 24/7 CCTV surveillance. Trained security personnel manage entry and exit points to ensure student safety is never compromised during or after school hours.",
+      "image": "/images/facilities/cctv-security.jpg",
+      "imageAlt": "CCTV security system at Bright Future School"
+    },
+    {
+      "id": "activity-rooms",
+      "icon": "🎨",
+      "title": "Activity Rooms",
+      "description": "Dedicated rooms for music, dance, art, and drama provide the space and resources for every student to explore their creative potential. These rooms are equipped with appropriate instruments and quality materials.",
+      "image": "/images/facilities/activity-room.jpg",
+      "imageAlt": "Students in the arts and activity room"
+    },
+    {
+      "id": "clean-campus",
+      "icon": "🌿",
+      "title": "Clean & Green Campus",
+      "description": "We maintain a clean, green, and eco-friendly campus environment. Regular cleanliness drives, maintained gardens, and sustainable waste management practices instil environmental responsibility in all our students.",
+      "image": "/images/facilities/campus.jpg",
+      "imageAlt": "Clean and green campus at Bright Future School"
+    },
+    {
+      "id": "water-sanitation",
+      "icon": "💧",
+      "title": "Drinking Water & Sanitation",
+      "description": "Filtered drinking water dispensers are available at multiple points across the campus. Clean and well-maintained separate sanitation facilities for boys and girls are upheld to the highest hygiene standards.",
+      "image": "/images/facilities/sanitation.jpg",
+      "imageAlt": "Clean sanitation and water facilities at school"
+    }
+  ]
+}

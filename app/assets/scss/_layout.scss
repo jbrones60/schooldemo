@@ -1,0 +1,133 @@
+// =============================================================
+// _layout.scss — Mobile-first layout primitives
+// =============================================================
+
+// ── Container ───────────────────────────────────────────────
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+// ── Section wrappers ────────────────────────────────────────
+
+.section {
+  padding-block: var(--space-xl);
+}
+
+.section-soft {
+  padding-block: var(--space-xl);
+  background-color: var(--color-bg-soft);
+}
+
+.section-compact {
+  padding-block: var(--space-lg);
+}
+
+.section-primary {
+  padding-block: var(--space-xl);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.section-dark {
+  padding-block: var(--space-xl);
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+// ── Grid system (mobile-first) ──────────────────────────────
+
+.grid {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.grid-2 {
+  display: grid;
+  gap: var(--space-md);
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-3 {
+  display: grid;
+  gap: var(--space-md);
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 960px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-4 {
+  display: grid;
+  gap: var(--space-md);
+
+  @media (min-width: 560px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+// Auto-fill grid for gallery / cards of known min-width
+.grid-auto {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+// ── Flex primitives ─────────────────────────────────────────
+
+// Vertical stack
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.stack-sm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+// Horizontal wrap cluster
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  align-items: center;
+}
+
+// ── Two-column content + aside ───────────────────────────────
+
+.split {
+  display: grid;
+  gap: var(--space-lg);
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.split-wide {
+  display: grid;
+  gap: var(--space-lg);
+
+  @media (min-width: 768px) {
+    grid-template-columns: 2fr 1fr;
+    align-items: start;
+  }
+}

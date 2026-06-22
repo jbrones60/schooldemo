@@ -1,0 +1,50 @@
+{
+  "default": {
+    "siteName": "Bright Future School",
+    "titleSuffix": " | Bright Future School, Guntur",
+    "description": "Bright Future School, Guntur — Quality education, strong values, and a nurturing environment for every child from Pre-Primary to Class 10.",
+    "ogImage": "/images/logo/logo-placeholder.svg"
+  },
+  "pages": {
+    "/": {
+      "title": "Bright Future School Guntur | Learning with Values, Discipline & Excellence",
+      "description": "Welcome to Bright Future School, Guntur — a premier school offering quality education from Pre-Primary to Class 10. Admissions open for 2025–26."
+    },
+    "/about": {
+      "title": "About Us | Bright Future School Guntur",
+      "description": "Learn about Bright Future School's mission, vision, values, and history. Established in 2005. Discover why parents in Guntur trust us with their children's education."
+    },
+    "/admissions": {
+      "title": "Admissions | Bright Future School Guntur",
+      "description": "Apply for admission at Bright Future School, Guntur. View the admission process, documents required, eligibility criteria, and important dates."
+    },
+    "/academics": {
+      "title": "Academics | Bright Future School Guntur",
+      "description": "Explore our academic programmes from Pre-Primary to Class 10. Strong curriculum, experienced teachers, co-curricular activities, and holistic development."
+    },
+    "/facilities": {
+      "title": "Facilities | Bright Future School Guntur",
+      "description": "Bright Future School offers modern facilities — smart classrooms, science lab, computer lab, library, playground, transport, and CCTV security."
+    },
+    "/gallery": {
+      "title": "Gallery | Bright Future School Guntur",
+      "description": "View photos from Bright Future School — campus, classrooms, events, sports days, labs, and student activities."
+    },
+    "/notices": {
+      "title": "Notices & Circulars | Bright Future School Guntur",
+      "description": "Stay updated with the latest notices, circulars, exam schedules, and announcements from Bright Future School, Guntur."
+    },
+    "/downloads": {
+      "title": "Downloads | Bright Future School Guntur",
+      "description": "Download school documents — admission form, prospectus, fee structure, academic calendar, transport form, and school handbook."
+    },
+    "/fee-structure": {
+      "title": "Fee Structure | Bright Future School Guntur",
+      "description": "View the fee structure at Bright Future School, Guntur. Class-wise fee details for all sections. Contact the school office for confirmed figures."
+    },
+    "/contact": {
+      "title": "Contact Us | Bright Future School Guntur",
+      "description": "Get in touch with Bright Future School, Guntur. Phone, WhatsApp, email, office hours, directions, and online enquiry form."
+    }
+  }
+}

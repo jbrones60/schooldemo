@@ -1,0 +1,12 @@
+[
+  { "label": "Home",         "to": "/" },
+  { "label": "About",        "to": "/about" },
+  { "label": "Admissions",   "to": "/admissions" },
+  { "label": "Academics",    "to": "/academics" },
+  { "label": "Facilities",   "to": "/facilities" },
+  { "label": "Gallery",      "to": "/gallery" },
+  { "label": "Notices",      "to": "/notices" },
+  { "label": "Downloads",    "to": "/downloads" },
+  { "label": "Fee Structure","to": "/fee-structure" },
+  { "label": "Contact",      "to": "/contact" }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Bright Future School",
+  "tagline": "Learning with values, discipline, and excellence.",
+  "establishedYear": "2005",
+  "phone": "+91 98765 43210",
+  "whatsapp": "+91 98765 43210",
+  "email": "info@brightfutureschool.edu.in",
+  "address": "Near City Centre, Guntur, Andhra Pradesh - 522001",
+  "addressShort": "Guntur, Andhra Pradesh",
+  "principalName": "Principal Name",
+  "logo": "/images/logo/logo-placeholder.svg",
+  "logoAlt": "Bright Future School Logo",
+  "mapUrl": "#",
+  "socialLinks": {
+    "facebook": "#",
+    "instagram": "#",
+    "youtube": "#"
+  },
+  "announcement": "Admissions for 2025–26 are now open. Limited seats available. Enquire today!"
+}

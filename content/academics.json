@@ -1,0 +1,133 @@
+{
+  "overview": {
+    "eyebrow": "Academics",
+    "title": "A Curriculum Designed for Every Child",
+    "description": "At Bright Future School, we follow a comprehensive and child-centric curriculum that balances academic rigour with creative exploration. Our programmes are designed to nurture critical thinking, problem-solving, and a lifelong love of learning."
+  },
+
+  "programs": [
+    {
+      "id": "pre-primary",
+      "title": "Pre-Primary",
+      "ageGroup": "Ages 3–5 (Nursery, LKG, UKG)",
+      "description": "Our pre-primary programme focuses on learning through play, exploration, and creativity. Children develop social, emotional, cognitive, and motor skills in a warm and nurturing classroom environment.",
+      "highlights": [
+        "Activity-based and play-centred learning",
+        "Language and number readiness",
+        "Creative arts, music, and movement",
+        "Social-emotional skills development"
+      ],
+      "image": "/images/academics/pre-primary.jpg",
+      "imageAlt": "Pre-primary students engaged in play-based learning"
+    },
+    {
+      "id": "primary",
+      "title": "Primary School",
+      "ageGroup": "Classes 1–5 (Ages 6–11)",
+      "description": "The primary years lay a strong foundation in literacy, numeracy, science, and social studies. Students are encouraged to ask questions, explore ideas, and build confidence in their learning abilities.",
+      "highlights": [
+        "Strong literacy and numeracy foundation",
+        "Introduction to sciences and social studies",
+        "Value education integrated into all subjects",
+        "Regular formative assessments with constructive feedback"
+      ],
+      "image": "/images/academics/primary.jpg",
+      "imageAlt": "Primary school students in a classroom"
+    },
+    {
+      "id": "middle-school",
+      "title": "Middle School",
+      "ageGroup": "Classes 6–8 (Ages 11–14)",
+      "description": "Middle school is a time of discovery and rapid growth. Our programme helps students deepen their subject knowledge, develop research and analytical skills, and build a strong foundation for high school.",
+      "highlights": [
+        "Subject specialisation and deeper exploration",
+        "Project-based and collaborative learning",
+        "Introduction to career awareness and goal-setting",
+        "Focus on analytical and critical thinking skills"
+      ],
+      "image": "/images/academics/middle-school.jpg",
+      "imageAlt": "Middle school students working on a project"
+    },
+    {
+      "id": "high-school",
+      "title": "High School",
+      "ageGroup": "Classes 9–10 (Ages 14–16)",
+      "description": "Our high school programme prepares students rigorously for board examinations while developing the academic discipline, resilience, and confidence needed for higher education and future success.",
+      "highlights": [
+        "Thorough board examination preparation",
+        "Regular mock tests, revision sessions, and past paper practice",
+        "Personalised academic support and mentoring",
+        "Career guidance and higher education orientation"
+      ],
+      "image": "/images/academics/high-school.jpg",
+      "imageAlt": "High school students studying for board exams"
+    }
+  ],
+
+  "methodology": {
+    "eyebrow": "Teaching Approach",
+    "title": "Teaching Methodology",
+    "description": "Our teachers use a blend of traditional and modern teaching methods, carefully tailored to each learning stage and the individual needs of students.",
+    "approaches": [
+      {
+        "title": "Activity-Based Learning",
+        "description": "Concepts are taught through hands-on activities, experiments, and projects that make learning memorable and meaningful."
+      },
+      {
+        "title": "Smart Classroom Technology",
+        "description": "Interactive boards and digital tools make lessons visually engaging and help explain complex concepts with clarity."
+      },
+      {
+        "title": "Continuous Assessment",
+        "description": "Regular formative assessments help identify learning gaps early and allow teachers to provide timely, personalised support."
+      },
+      {
+        "title": "Personalised Attention",
+        "description": "Manageable class sizes ensure every student receives individual attention and no child is left behind."
+      },
+      {
+        "title": "Collaborative Learning",
+        "description": "Group projects and peer learning build strong communication, teamwork, and interpersonal skills."
+      }
+    ]
+  },
+
+  "cocurricular": {
+    "eyebrow": "Beyond the Classroom",
+    "title": "Co-Curricular Activities",
+    "description": "Education at Bright Future School extends well beyond the classroom. We offer a wide range of activities that develop talent, build character, and foster confidence.",
+    "activities": [
+      {
+        "category": "Sports",
+        "icon": "⚽",
+        "items": ["Cricket", "Football", "Basketball", "Kabaddi", "Athletics", "Chess", "Badminton"]
+      },
+      {
+        "category": "Arts & Creativity",
+        "icon": "🎨",
+        "items": ["Drawing & Painting", "Classical Dance", "Music & Singing", "Drama & Theatre", "Crafts & Pottery"]
+      },
+      {
+        "category": "Academic Clubs",
+        "icon": "🔭",
+        "items": ["Science Club", "Mathematics Club", "Reading & Literature Club", "Eco Club", "Debate & Public Speaking"]
+      },
+      {
+        "category": "Life Skills",
+        "icon": "🌟",
+        "items": ["Yoga & Meditation", "Leadership Development", "Community Service", "First Aid Awareness"]
+      }
+    ]
+  },
+
+  "assessment": {
+    "title": "Assessment Pattern",
+    "note": "Assessment details may vary by class and applicable board guidelines. Please contact the school office for the current and detailed assessment structure.",
+    "overview": "We follow a Continuous and Comprehensive Evaluation (CCE) approach that assesses both academic performance and overall development. Regular unit tests, projects, term examinations, and periodic assessments are conducted throughout the academic year."
+  },
+
+  "calendarCTA": {
+    "label": "Download Academic Calendar",
+    "to": "/downloads"
+  }
+}

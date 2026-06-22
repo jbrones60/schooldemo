@@ -1,0 +1,48 @@
+{
+  "overview": {
+    "eyebrow": "Our Faculty",
+    "title": "Passionate Educators, Dedicated to Every Child",
+    "description": "Our team of experienced, qualified, and caring teachers is the heart of Bright Future School. Every member of our faculty is committed to creating a positive, supportive, and enriching learning experience for each student."
+  },
+
+  "members": [
+    {
+      "id": 1,
+      "name": "Faculty Member Name",
+      "designation": "Head of Primary Department",
+      "qualification": "M.Ed., B.Ed.",
+      "experience": "15+ years",
+      "photo": "/images/faculty/faculty-placeholder-01.jpg",
+      "photoAlt": "Head of Primary Department, Bright Future School"
+    },
+    {
+      "id": 2,
+      "name": "Faculty Member Name",
+      "designation": "Head of Science Department",
+      "qualification": "M.Sc. (Physics), B.Ed.",
+      "experience": "12+ years",
+      "photo": "/images/faculty/faculty-placeholder-02.jpg",
+      "photoAlt": "Head of Science Department, Bright Future School"
+    },
+    {
+      "id": 3,
+      "name": "Faculty Member Name",
+      "designation": "Senior Mathematics Teacher",
+      "qualification": "M.Sc. (Mathematics), B.Ed.",
+      "experience": "10+ years",
+      "photo": "/images/faculty/faculty-placeholder-03.jpg",
+      "photoAlt": "Senior Mathematics Teacher, Bright Future School"
+    },
+    {
+      "id": 4,
+      "name": "Faculty Member Name",
+      "designation": "English & Language Arts",
+      "qualification": "M.A. (English), B.Ed.",
+      "experience": "8+ years",
+      "photo": "/images/faculty/faculty-placeholder-04.jpg",
+      "photoAlt": "English Teacher, Bright Future School"
+    }
+  ],
+
+  "note": "Faculty names and photos shown are placeholders only and will be replaced with actual staff information before the website goes live."
+}

@@ -1,0 +1,48 @@
+{
+  "overview": {
+    "eyebrow": "Testimonials",
+    "title": "What Parents Say About Us",
+    "description": "Hear from the families who are part of the Bright Future School community."
+  },
+
+  "items": [
+    {
+      "id": 1,
+      "name": "Parent Name",
+      "role": "Parent of Class 5 Student",
+      "photo": "/images/testimonials/testimonial-placeholder.jpg",
+      "photoAlt": "Parent testimonial",
+      "rating": 5,
+      "text": "Bright Future School has been a wonderful environment for my child. The teachers are caring and dedicated, and the facilities are excellent. My child has grown so much — academically and as a person. I am very happy with this school."
+    },
+    {
+      "id": 2,
+      "name": "Parent Name",
+      "role": "Parent of Class 8 Student",
+      "photo": "/images/testimonials/testimonial-placeholder.jpg",
+      "photoAlt": "Parent testimonial",
+      "rating": 5,
+      "text": "We have been part of the Bright Future family for over four years and couldn't be happier. The school genuinely cares about every child's wellbeing and progress. Communication between parents and teachers is open and excellent."
+    },
+    {
+      "id": 3,
+      "name": "Parent Name",
+      "role": "Parent of Class 3 Student",
+      "photo": "/images/testimonials/testimonial-placeholder.jpg",
+      "photoAlt": "Parent testimonial",
+      "rating": 5,
+      "text": "My daughter loves coming to school every single day. The teachers make learning fun and engaging. The campus is safe, clean, and beautifully maintained. I highly recommend this school to every parent."
+    },
+    {
+      "id": 4,
+      "name": "Parent Name",
+      "role": "Parent of Class 10 Student",
+      "photo": "/images/testimonials/testimonial-placeholder.jpg",
+      "photoAlt": "Parent testimonial",
+      "rating": 5,
+      "text": "The academic support and board exam preparation at Bright Future School is outstanding. My son's confidence and results have improved significantly. The teachers go above and beyond to help every student succeed."
+    }
+  ],
+
+  "note": "Testimonials shown are placeholders only and will be replaced with actual parent reviews before the website goes live."
+}

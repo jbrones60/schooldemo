@@ -1,0 +1,23 @@
+# Nuxt build outputs
+.nuxt/
+.output/
+dist/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+
+# Editor
+.vscode/
+.idea/

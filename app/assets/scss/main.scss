@@ -1,0 +1,36 @@
+// =============================================================
+// main.scss — Global SCSS entry point
+//
+// Load order matters:
+//   1. Active theme   → defines color CSS variables
+//   2. Variables      → defines all other design tokens
+//   3. Reset          → normalize browser defaults
+//   4. Typography     → base type styles
+//   5. Layout         → grid/section/container primitives
+//   6. Component files
+//   7. Utilities      → last so they can override if needed
+//
+// To switch theme: change the @use below to another theme file.
+// =============================================================
+
+// 1. Active theme (colors)
+@use 'themes/theme-royal-blue';
+
+// 2. Design tokens (non-color)
+@use 'variables';
+
+// 3. Base
+@use 'reset';
+@use 'typography';
+
+// 4. Layout primitives
+@use 'layout';
+
+// 5. Component styles
+@use 'buttons';
+@use 'cards';
+@use 'forms';
+@use 'sections';
+
+// 6. Utilities (highest specificity — load last)
+@use 'utilities';

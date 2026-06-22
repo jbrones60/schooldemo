@@ -1,0 +1,117 @@
+{
+  "overview": {
+    "eyebrow": "Gallery",
+    "title": "Life at Bright Future School",
+    "description": "Glimpses of learning, laughter, and achievement at our campus. Real photos will be added before the website goes live."
+  },
+
+  "categories": ["All", "Campus", "Classrooms", "Sports", "Events", "Labs"],
+
+  "images": [
+    {
+      "id": 1,
+      "src": "/images/gallery/campus-01.jpg",
+      "alt": "Main building of Bright Future School campus",
+      "title": "School Campus",
+      "category": "Campus"
+    },
+    {
+      "id": 2,
+      "src": "/images/gallery/campus-02.jpg",
+      "alt": "Entrance gate of Bright Future School",
+      "title": "School Entrance",
+      "category": "Campus"
+    },
+    {
+      "id": 3,
+      "src": "/images/gallery/campus-03.jpg",
+      "alt": "School garden and green surroundings",
+      "title": "Green Campus",
+      "category": "Campus"
+    },
+    {
+      "id": 4,
+      "src": "/images/gallery/classroom-01.jpg",
+      "alt": "Students in a smart classroom with interactive board",
+      "title": "Smart Classroom",
+      "category": "Classrooms"
+    },
+    {
+      "id": 5,
+      "src": "/images/gallery/classroom-02.jpg",
+      "alt": "Students engaged in a group learning activity",
+      "title": "Group Learning",
+      "category": "Classrooms"
+    },
+    {
+      "id": 6,
+      "src": "/images/gallery/classroom-03.jpg",
+      "alt": "Teacher explaining a lesson on the smart board",
+      "title": "Interactive Teaching",
+      "category": "Classrooms"
+    },
+    {
+      "id": 7,
+      "src": "/images/gallery/sports-01.jpg",
+      "alt": "Students playing cricket on the school playground",
+      "title": "Cricket Practice",
+      "category": "Sports"
+    },
+    {
+      "id": 8,
+      "src": "/images/gallery/sports-02.jpg",
+      "alt": "Students participating in the annual sports day athletics race",
+      "title": "Annual Sports Day",
+      "category": "Sports"
+    },
+    {
+      "id": 9,
+      "src": "/images/gallery/sports-03.jpg",
+      "alt": "Students playing football on the school ground",
+      "title": "Football",
+      "category": "Sports"
+    },
+    {
+      "id": 10,
+      "src": "/images/gallery/events-01.jpg",
+      "alt": "Students performing a cultural dance on stage during Annual Day",
+      "title": "Annual Day Performance",
+      "category": "Events"
+    },
+    {
+      "id": 11,
+      "src": "/images/gallery/events-02.jpg",
+      "alt": "Prize distribution ceremony at the school annual function",
+      "title": "Prize Distribution",
+      "category": "Events"
+    },
+    {
+      "id": 12,
+      "src": "/images/gallery/events-03.jpg",
+      "alt": "Students and teachers celebrating Independence Day at school",
+      "title": "Independence Day Celebration",
+      "category": "Events"
+    },
+    {
+      "id": 13,
+      "src": "/images/gallery/lab-01.jpg",
+      "alt": "Students conducting chemistry experiments in the science laboratory",
+      "title": "Science Lab",
+      "category": "Labs"
+    },
+    {
+      "id": 14,
+      "src": "/images/gallery/lab-02.jpg",
+      "alt": "Students working on computers in the school computer laboratory",
+      "title": "Computer Lab",
+      "category": "Labs"
+    },
+    {
+      "id": 15,
+      "src": "/images/gallery/lab-03.jpg",
+      "alt": "Students reading books and researching in the school library",
+      "title": "School Library",
+      "category": "Labs"
+    }
+  ]
+}

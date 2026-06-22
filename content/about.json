@@ -1,0 +1,74 @@
+{
+  "overview": {
+    "eyebrow": "About Us",
+    "title": "Bright Future School",
+    "description": "Established in 2005, Bright Future School has been a pillar of quality education in Guntur, Andhra Pradesh. We are committed to providing a nurturing and academically rigorous environment where every student is encouraged to achieve their best.",
+    "description2": "Our school follows a holistic approach to education — combining strong academics with character building, physical development, and creative expression. We believe education is not just about marks — it's about shaping confident, compassionate, and capable human beings.",
+    "image": "/images/about/school-building.jpg",
+    "imageAlt": "Bright Future School main building"
+  },
+
+  "mission": {
+    "title": "Our Mission",
+    "text": "To provide a safe, inspiring, and inclusive learning environment that empowers every student to reach their fullest potential through quality education, strong values, and meaningful opportunities."
+  },
+
+  "vision": {
+    "title": "Our Vision",
+    "text": "To be a school where every child discovers their purpose, develops their character, and grows into a responsible citizen ready to make a positive difference in the world."
+  },
+
+  "values": [
+    { "title": "Integrity",   "description": "We uphold honesty and ethical conduct in everything we do." },
+    { "title": "Excellence",  "description": "We strive for the highest standards in academics and character." },
+    { "title": "Compassion",  "description": "We care for every student's emotional and social wellbeing." },
+    { "title": "Discipline",  "description": "We cultivate self-discipline as a foundation for lifelong success." },
+    { "title": "Innovation",  "description": "We encourage curiosity, creativity, and a love of lifelong learning." },
+    { "title": "Inclusivity", "description": "We celebrate every student's unique background and unlimited potential." }
+  ],
+
+  "principalMessage": {
+    "eyebrow": "From the Principal's Desk",
+    "name": "Principal Name",
+    "designation": "Principal, Bright Future School",
+    "message": "At Bright Future School, we believe that every child is a unique gift to the world. Our role as educators is to nurture that uniqueness — to give each child the knowledge, skills, and values they need to thrive. We are committed to making every school day meaningful, every interaction respectful, and every learning experience transformative. I warmly invite you to be part of our school family.",
+    "photo": "/images/faculty/principal-placeholder.jpg",
+    "photoAlt": "Principal, Bright Future School"
+  },
+
+  "timeline": {
+    "eyebrow": "Our Journey",
+    "title": "Nearly Two Decades of Excellence",
+    "items": [
+      { "year": "2005", "event": "School founded with a vision to transform the quality of education in Guntur." },
+      { "year": "2008", "event": "First batch of students completed their board examinations with distinction." },
+      { "year": "2012", "event": "State-of-the-art science and computer laboratories inaugurated." },
+      { "year": "2016", "event": "Smart classroom technology introduced across all sections." },
+      { "year": "2020", "event": "Successfully transitioned to hybrid learning and continued student progress." },
+      { "year": "2024", "event": "Celebrating nearly two decades of academic excellence and community trust." }
+    ]
+  },
+
+  "trustSection": {
+    "eyebrow": "Why Parents Trust Us",
+    "title": "A School That Feels Like Home",
+    "items": [
+      {
+        "title": "Parent–School Partnership",
+        "description": "We maintain open, regular communication with parents through meetings, report cards, and digital updates."
+      },
+      {
+        "title": "Safety First",
+        "description": "CCTV cameras, trained security, and controlled entry ensure every child is safe throughout the school day."
+      },
+      {
+        "title": "Transparent Administration",
+        "description": "Clear fee structures, honest communication, and fair policies build lasting trust with every family."
+      },
+      {
+        "title": "Individual Attention",
+        "description": "Every student is known by name, not just a roll number. We celebrate every child's progress and milestone."
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+// =============================================================
+// _theme-royal-blue.scss — Active theme
+// Royal blue + white + light grey
+// =============================================================
+// To switch theme: in main.scss, replace this @use with another theme.
+
+:root {
+  // Primary brand colors
+  --color-primary:      #1455d9;
+  --color-primary-dark: #0b3a99;
+  --color-primary-soft: #eaf1ff;
+
+  // Accent (warm — CTA highlights, badges)
+  --color-accent:       #f5b400;
+  --color-accent-dark:  #d49b00;
+
+  // Backgrounds
+  --color-bg:           #ffffff;
+  --color-bg-soft:      #f4f7fb;
+
+  // Text
+  --color-text:         #1f2937;
+  --color-muted:        #6b7280;
+
+  // Border
+  --color-border:       #e5e7eb;
+
+  // Named utility colors
+  --color-white:        #ffffff;
+  --color-dark:         #0f172a;
+}

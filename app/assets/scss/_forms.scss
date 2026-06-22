@@ -1,0 +1,150 @@
+// =============================================================
+// _forms.scss — Form foundation styles
+// Used by the contact/enquiry form (Phase 10).
+// =============================================================
+
+// ── Form layout ──────────────────────────────────────────────
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: var(--space-sm);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-row {
+  display: grid;
+  gap: var(--space-sm);
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// ── Label ────────────────────────────────────────────────────
+
+.form-label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text);
+
+  .required {
+    color: var(--color-error);
+    margin-left: 3px;
+  }
+}
+
+// ── Input / Textarea / Select ────────────────────────────────
+
+.form-control {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  line-height: 1.5;
+  appearance: none;
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+
+  &::placeholder {
+    color: var(--color-muted);
+    opacity: 1;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-soft);
+  }
+
+  &:disabled {
+    background-color: var(--color-bg-soft);
+    cursor: not-allowed;
+    opacity: 0.65;
+  }
+
+  // Error state
+  &.is-error {
+    border-color: var(--color-error);
+
+    &:focus {
+      box-shadow: 0 0 0 3px var(--color-error-soft);
+    }
+  }
+}
+
+// Textarea
+textarea.form-control {
+  resize: vertical;
+  min-height: 130px;
+}
+
+// Select with custom arrow
+select.form-control {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7280' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+// ── Help / error text ────────────────────────────────────────
+
+.form-hint {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+.form-error-text {
+  font-size: var(--text-xs);
+  color: var(--color-error);
+  font-weight: 500;
+}
+
+// ── Checkbox / Radio (accessible base) ───────────────────────
+
+.form-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+
+  input[type='checkbox'],
+  input[type='radio'] {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    accent-color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .form-check-label {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+}
+
+// ── Form wrapper ─────────────────────────────────────────────
+
+.form-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-lg);
+
+  @media (max-width: 480px) {
+    padding: var(--space-md);
+  }
+}

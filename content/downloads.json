@@ -1,0 +1,80 @@
+{
+  "overview": {
+    "eyebrow": "Downloads",
+    "title": "School Forms & Documents",
+    "description": "Download important school documents, application forms, and information materials below. For any document not listed here, please contact our school office."
+  },
+
+  "items": [
+    {
+      "id": 1,
+      "title": "Admission Form",
+      "description": "Official application form for new student admissions. Fill, sign, and submit to the school office along with the required documents.",
+      "fileType": "PDF",
+      "fileName": "admission-form.pdf",
+      "filePath": "/downloads/admission-form-placeholder.pdf",
+      "icon": "📄",
+      "category": "Admissions"
+    },
+    {
+      "id": 2,
+      "title": "School Prospectus",
+      "description": "Complete school prospectus covering our curriculum, facilities, programmes, fee overview, and school philosophy. Ideal reading for new parents.",
+      "fileType": "PDF",
+      "fileName": "prospectus.pdf",
+      "filePath": "/downloads/prospectus-placeholder.pdf",
+      "icon": "📘",
+      "category": "General"
+    },
+    {
+      "id": 3,
+      "title": "Fee Structure",
+      "description": "Detailed class-wise fee structure for the current academic year. Please contact the school office for the latest confirmed figures.",
+      "fileType": "PDF",
+      "fileName": "fee-structure.pdf",
+      "filePath": "/downloads/fee-structure-placeholder.pdf",
+      "icon": "💰",
+      "category": "Fees"
+    },
+    {
+      "id": 4,
+      "title": "Academic Calendar",
+      "description": "Full-year academic planner with term start/end dates, examination schedules, public holidays, and important school events.",
+      "fileType": "PDF",
+      "fileName": "academic-calendar.pdf",
+      "filePath": "/downloads/academic-calendar-placeholder.pdf",
+      "icon": "📅",
+      "category": "Academic"
+    },
+    {
+      "id": 5,
+      "title": "Transport Application Form",
+      "description": "Application form for the school bus service. Fill and submit to the transport coordinator at the school office to register for a route.",
+      "fileType": "PDF",
+      "fileName": "transport-application.pdf",
+      "filePath": "/downloads/transport-application-placeholder.pdf",
+      "icon": "🚌",
+      "category": "Transport"
+    },
+    {
+      "id": 6,
+      "title": "School Handbook",
+      "description": "Complete guide to school rules, discipline policies, uniform requirements, conduct expectations, and general information for students and parents.",
+      "fileType": "PDF",
+      "fileName": "school-handbook.pdf",
+      "filePath": "/downloads/school-handbook-placeholder.pdf",
+      "icon": "📋",
+      "category": "General"
+    },
+    {
+      "id": 7,
+      "title": "Parent Declaration Form",
+      "description": "Declaration form to be signed by parents or guardians at the time of admission, acknowledging school rules and policies.",
+      "fileType": "PDF",
+      "fileName": "parent-declaration.pdf",
+      "filePath": "/downloads/parent-declaration-placeholder.pdf",
+      "icon": "✍️",
+      "category": "Admissions"
+    }
+  ]
+}

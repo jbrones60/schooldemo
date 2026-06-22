@@ -1,0 +1,137 @@
+// =============================================================
+// _buttons.scss — Reusable button system
+// =============================================================
+
+// ── Base ─────────────────────────────────────────────────────
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 24px;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.25;
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color var(--transition-base),
+    color var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    transform var(--transition-base);
+
+  &:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  // Disabled state
+  &[disabled],
+  &.is-disabled {
+    opacity: 0.55;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+}
+
+// ── Variants ─────────────────────────────────────────────────
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+    color: var(--color-white);
+    box-shadow: var(--shadow-card);
+  }
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  color: var(--color-white);
+  border-color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+  }
+}
+
+.btn-light {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  border-color: transparent;
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+  }
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-dark);
+  border-color: var(--color-accent);
+
+  &:hover {
+    background-color: var(--color-accent-dark);
+    border-color: var(--color-accent-dark);
+    color: var(--color-dark);
+    box-shadow: var(--shadow-card);
+  }
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+
+  &:hover {
+    background-color: var(--color-bg-soft);
+    border-color: var(--color-muted);
+  }
+}
+
+// ── Modifiers ────────────────────────────────────────────────
+
+// Full-width button
+.btn-block {
+  display: flex;
+  width: 100%;
+}
+
+// Size variants
+.btn-sm {
+  padding: 8px 16px;
+  font-size: var(--text-xs);
+}
+
+.btn-lg {
+  padding: 16px 32px;
+  font-size: var(--text-md);
+}

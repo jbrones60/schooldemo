@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "eyebrow": "Welcome to Bright Future School",
+    "title": "Learning with Values, Discipline, and Excellence",
+    "subtitle": "A nurturing environment where every child is inspired to dream big, learn deeply, and grow confidently.",
+    "ctaPrimary":   { "label": "Apply for Admission", "to": "/admissions" },
+    "ctaSecondary": { "label": "Explore Our School",  "to": "/about" },
+    "image": "/images/hero/school-hero.jpg",
+    "imageAlt": "Students learning at Bright Future School"
+  },
+
+  "highlights": [
+    { "number": "500+", "label": "Happy Students"            },
+    { "number": "30+",  "label": "Experienced Faculty"       },
+    { "number": "18+",  "label": "Years of Excellence"       },
+    { "number": "10+",  "label": "Co-curricular Activities"  }
+  ],
+
+  "aboutPreview": {
+    "eyebrow": "About Our School",
+    "title": "A School Built on Values and Vision",
+    "description": "Bright Future School has been nurturing young minds since 2005. We believe every child has unique potential waiting to be discovered. Our school provides a balanced academic environment that fosters intellectual growth, character building, and personal development.",
+    "ctaLabel": "Know More About Us",
+    "ctaTo": "/about",
+    "image": "/images/about/school-building.jpg",
+    "imageAlt": "Bright Future School building"
+  },
+
+  "whyChooseUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "What Makes Bright Future School Different",
+    "items": [
+      {
+        "icon": "🏫",
+        "title": "Modern Infrastructure",
+        "description": "Smart classrooms, well-equipped labs, and a spacious campus designed for 21st-century learning."
+      },
+      {
+        "icon": "👩‍🏫",
+        "title": "Experienced Faculty",
+        "description": "Dedicated and qualified teachers who care about every student's growth and wellbeing."
+      },
+      {
+        "icon": "📚",
+        "title": "Strong Academics",
+        "description": "A rigorous yet balanced curriculum that prepares students for higher education and life."
+      },
+      {
+        "icon": "🌱",
+        "title": "Value-Based Education",
+        "description": "Character, discipline, and moral values are woven into everything we do at our school."
+      },
+      {
+        "icon": "⚽",
+        "title": "Co-curricular Activities",
+        "description": "Sports, arts, music, and clubs that develop well-rounded individuals beyond the classroom."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Safe & Secure Campus",
+        "description": "CCTV surveillance, trained staff, and a safe environment parents can truly trust."
+      }
+    ]
+  },
+
+  "academicsPreview": {
+    "eyebrow": "Academics",
+    "title": "Programs for Every Stage of Learning",
+    "description": "From Pre-Primary to High School, we offer structured programmes that grow with your child at every stage.",
+    "ctaLabel": "View All Programs",
+    "ctaTo": "/academics",
+    "programs": [
+      {
+        "title": "Pre-Primary",
+        "ageGroup": "Ages 3–5",
+        "description": "Play-based learning to build curiosity, confidence, and a love for school."
+      },
+      {
+        "title": "Primary",
+        "ageGroup": "Classes 1–5",
+        "description": "Strong foundation in literacy, numeracy, science, and values."
+      },
+      {
+        "title": "Middle School",
+        "ageGroup": "Classes 6–8",
+        "description": "Expanding knowledge with critical thinking, research skills, and creativity."
+      },
+      {
+        "title": "High School",
+        "ageGroup": "Classes 9–10",
+        "description": "Rigorous board exam preparation and career readiness guidance."
+      }
+    ]
+  },
+
+  "facilitiesPreview": {
+    "eyebrow": "Facilities",
+    "title": "A Campus Built for Learning and Growth",
+    "description": "Our facilities support every aspect of student development — academic, physical, and creative.",
+    "ctaLabel": "Explore All Facilities",
+    "ctaTo": "/facilities",
+    "items": [
+      { "icon": "🖥️", "title": "Smart Classrooms"    },
+      { "icon": "🔬", "title": "Science Lab"          },
+      { "icon": "💻", "title": "Computer Lab"         },
+      { "icon": "📖", "title": "Library"              },
+      { "icon": "🏃", "title": "Playground & Sports"  },
+      { "icon": "🚌", "title": "School Transport"     }
+    ]
+  },
+
+  "admissionsCTA": {
+    "eyebrow": "Admissions Open",
+    "title": "Secure Your Child's Future Today",
+    "description": "Admissions for the academic year 2025–26 are now open. Limited seats available per class. Apply early to avoid disappointment.",
+    "ctaPrimary":   { "label": "Apply Now",          "to": "/admissions" },
+    "ctaSecondary": { "label": "View Fee Structure",  "to": "/fee-structure" }
+  },
+
+  "galleryPreview": {
+    "eyebrow": "Gallery",
+    "title": "Life at Bright Future School",
+    "description": "Glimpses of learning, laughter, and achievement at our campus.",
+    "ctaLabel": "View Full Gallery",
+    "ctaTo": "/gallery"
+  },
+
+  "contactCTA": {
+    "eyebrow": "Get in Touch",
+    "title": "We'd Love to Hear From You",
+    "description": "Have questions about admissions, fees, or school programmes? Our team is happy to help you.",
+    "ctaPrimary":   { "label": "Contact Us",           "to": "/contact"   },
+    "ctaSecondary": { "label": "Download Prospectus",  "to": "/downloads" }
+  }
+}

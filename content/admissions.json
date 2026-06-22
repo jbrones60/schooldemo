@@ -1,0 +1,143 @@
+{
+  "overview": {
+    "eyebrow": "Admissions",
+    "title": "Begin Your Child's Journey Here",
+    "description": "We welcome students who are eager to learn, grow, and become the best versions of themselves. Bright Future School offers admissions from Pre-Primary through Class 10.",
+    "note": "Admissions for the current academic year are open. Contact us to confirm seat availability for your child's class."
+  },
+
+  "classesOpen": [
+    { "class": "Pre-Primary (Nursery / LKG / UKG)", "ageGroup": "3 to 5 years",  "status": "Open"          },
+    { "class": "Primary (Classes 1 – 5)",            "ageGroup": "6 to 11 years", "status": "Open"          },
+    { "class": "Middle School (Classes 6 – 8)",      "ageGroup": "11 to 14 years","status": "Limited Seats" },
+    { "class": "High School (Classes 9 – 10)",       "ageGroup": "14 to 16 years","status": "Limited Seats" }
+  ],
+
+  "process": {
+    "title": "Admission Process",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Submit Enquiry",
+        "description": "Fill out the online enquiry form on our Contact page or visit the school office to express your interest in admission."
+      },
+      {
+        "step": 2,
+        "title": "Campus Visit",
+        "description": "Schedule a visit to tour our campus, meet our team, and get all your questions answered in person."
+      },
+      {
+        "step": 3,
+        "title": "Collect Admission Form",
+        "description": "Download the admission form from our Downloads page or collect it directly from the school office."
+      },
+      {
+        "step": 4,
+        "title": "Submit Documents",
+        "description": "Submit the completed admission form with all required documents as listed below. Originals and photocopies are required."
+      },
+      {
+        "step": 5,
+        "title": "Student Interaction",
+        "description": "An informal interaction or basic assessment may be scheduled depending on the class applied for. This is a relaxed, friendly process."
+      },
+      {
+        "step": 6,
+        "title": "Fee Payment",
+        "description": "Pay the admission fee and first-term tuition fee to confirm and secure your child's seat."
+      },
+      {
+        "step": 7,
+        "title": "Admission Confirmed",
+        "description": "Receive your official admission confirmation letter. Your child is now part of the Bright Future family!"
+      }
+    ]
+  },
+
+  "documents": {
+    "title": "Documents Required",
+    "note": "Please carry original documents along with one photocopy set. Originals will be returned after verification.",
+    "items": [
+      "Birth certificate (original + photocopy)",
+      "Aadhaar card copy of the student",
+      "2 recent passport-size photographs of the student",
+      "Parent / guardian Aadhaar card or government-issued photo ID proof",
+      "Address proof (utility bill, rental agreement, or equivalent)",
+      "Previous school Transfer Certificate (TC) — if applicable",
+      "Previous year's report card / academic records — if applicable",
+      "Caste certificate or income certificate — if applicable"
+    ]
+  },
+
+  "eligibility": {
+    "title": "Age Eligibility Criteria",
+    "note": "Age is calculated as on 1st June of the academic year. Please contact the school office to confirm eligibility for your child's specific class.",
+    "criteria": [
+      { "class": "Nursery",  "ageAsOn1June": "3 years completed" },
+      { "class": "LKG",      "ageAsOn1June": "4 years completed" },
+      { "class": "UKG",      "ageAsOn1June": "5 years completed" },
+      { "class": "Class 1",  "ageAsOn1June": "6 years completed" }
+    ]
+  },
+
+  "importantDates": {
+    "title": "Important Dates",
+    "note": "Dates are approximate and subject to revision. Please contact the school office or check this page regularly for confirmed dates.",
+    "items": [
+      { "event": "Admissions Open",                       "date": "January 2025 onwards" },
+      { "event": "Last Date for Form Submission",         "date": "To be announced"      },
+      { "event": "Student Interaction / Assessment",      "date": "To be announced"      },
+      { "event": "Commencement of Academic Year 2025–26", "date": "June 2025"            }
+    ]
+  },
+
+  "enquiryCTA": {
+    "label": "Submit Enquiry",
+    "to": "/contact"
+  },
+
+  "feeStructureCTA": {
+    "label": "View Fee Structure",
+    "to": "/fee-structure"
+  },
+
+  "downloadCTA": {
+    "label": "Download Admission Form",
+    "to": "/downloads"
+  },
+
+  "faq": [
+    {
+      "question": "What is the admission procedure at Bright Future School?",
+      "answer": "Submit an enquiry, visit the campus, collect and fill the admission form, submit required documents, complete any informal interaction, pay fees, and receive your admission confirmation letter."
+    },
+    {
+      "question": "Which classes are open for admission?",
+      "answer": "We accept admissions from Pre-Primary (Nursery) through Class 10. Seat availability may vary per class and section. Please contact us to check current availability."
+    },
+    {
+      "question": "Is there an entrance test for admission?",
+      "answer": "For Pre-Primary and lower primary classes, there is no formal entrance test — only a relaxed, informal interaction with the student and parents. For higher classes, a basic academic assessment may be conducted."
+    },
+    {
+      "question": "What is the fee structure?",
+      "answer": "Please visit our Fee Structure page for indicative fee details. For the confirmed and latest figures, please contact our school office directly, as fees are subject to revision."
+    },
+    {
+      "question": "Does the school provide transport?",
+      "answer": "Yes, we offer a safe school bus service covering major areas. Please contact us for available routes, stops, and transport fee details."
+    },
+    {
+      "question": "What board or curriculum does the school follow?",
+      "answer": "Please contact the school office for details on our board affiliation and curriculum structure. We will be happy to share all relevant information."
+    },
+    {
+      "question": "Can I visit the school before applying?",
+      "answer": "Absolutely! We warmly encourage parents to visit our campus. Please call us or fill the enquiry form to schedule a visit at a convenient time."
+    },
+    {
+      "question": "Are sibling discounts or fee concessions available?",
+      "answer": "Concessions may be available for siblings and certain categories. Please enquire at the school office for details."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "disclaimer": "The fee details shown here are for general information only. Please contact the school office for the latest and confirmed fee structure. Fees are subject to revision each academic year. Concessions may be available for siblings and certain categories — please enquire at the school office.",
+
+  "officeNote": "For confirmed and up-to-date fee details, please visit the school office during working hours or call us at +91 98765 43210.",
+
+  "contactCTA": {
+    "label": "Contact School Office",
+    "to": "/contact"
+  },
+
+  "downloadCTA": {
+    "label": "Download Fee Structure PDF",
+    "to": "/downloads"
+  },
+
+  "sections": [
+    {
+      "id": "pre-primary",
+      "title": "Pre-Primary Section",
+      "classes": "Nursery, LKG, UKG",
+      "rows": [
+        { "feeType": "Admission Fee",       "amount": "Contact school office", "frequency": "One-time",      "note": "Non-refundable"           },
+        { "feeType": "Tuition Fee",          "amount": "Contact school office", "frequency": "Per term",      "note": "3 terms per year"         },
+        { "feeType": "Annual Development Fee","amount": "Contact school office", "frequency": "Annual",       "note": "Payable at start of year" },
+        { "feeType": "Transport Fee",        "amount": "As per route",          "frequency": "Per month",     "note": "Optional"                 }
+      ]
+    },
+    {
+      "id": "primary",
+      "title": "Primary School",
+      "classes": "Classes 1 – 5",
+      "rows": [
+        { "feeType": "Admission Fee",        "amount": "Contact school office", "frequency": "One-time",      "note": "Non-refundable"           },
+        { "feeType": "Tuition Fee",           "amount": "Contact school office", "frequency": "Per term",      "note": "3 terms per year"         },
+        { "feeType": "Annual Development Fee","amount": "Contact school office", "frequency": "Annual",        "note": "Payable at start of year" },
+        { "feeType": "Transport Fee",         "amount": "As per route",          "frequency": "Per month",     "note": "Optional"                 }
+      ]
+    },
+    {
+      "id": "middle-school",
+      "title": "Middle School",
+      "classes": "Classes 6 – 8",
+      "rows": [
+        { "feeType": "Admission Fee",        "amount": "Contact school office", "frequency": "One-time",      "note": "Non-refundable"           },
+        { "feeType": "Tuition Fee",           "amount": "Contact school office", "frequency": "Per term",      "note": "3 terms per year"         },
+        { "feeType": "Annual Development Fee","amount": "Contact school office", "frequency": "Annual",        "note": "Payable at start of year" },
+        { "feeType": "Transport Fee",         "amount": "As per route",          "frequency": "Per month",     "note": "Optional"                 }
+      ]
+    },
+    {
+      "id": "high-school",
+      "title": "High School",
+      "classes": "Classes 9 – 10",
+      "rows": [
+        { "feeType": "Admission Fee",        "amount": "Contact school office", "frequency": "One-time",      "note": "Non-refundable"           },
+        { "feeType": "Tuition Fee",           "amount": "Contact school office", "frequency": "Per term",      "note": "3 terms per year"         },
+        { "feeType": "Annual Development Fee","amount": "Contact school office", "frequency": "Annual",        "note": "Payable at start of year" },
+        { "feeType": "Transport Fee",         "amount": "As per route",          "frequency": "Per month",     "note": "Optional"                 }
+      ]
+    }
+  ],
+
+  "paymentInstructions": {
+    "title": "Payment Instructions",
+    "items": [
+      "Fee payments are accepted at the school office during working hours (Monday–Friday 8:00 AM – 4:00 PM, Saturday 9:00 AM – 1:00 PM).",
+      "Please carry your school fee card or the fee challan when making payments.",
+      "Fees can be paid term-wise or as per the school's prescribed payment schedule.",
+      "Late payment may attract a fine as per the school's stated policy.",
+      "An official receipt will be issued for every payment — please keep all receipts safely.",
+      "For any fee-related queries or discrepancies, please contact the school office directly."
+    ]
+  }
+}
