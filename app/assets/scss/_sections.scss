@@ -25,7 +25,7 @@
   font-weight: 700;
   color: var(--color-text);
   line-height: 1.2;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .section-title-white {
@@ -34,7 +34,7 @@
   font-weight: 700;
   color: var(--color-white);
   line-height: 1.2;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .section-description {
@@ -137,14 +137,14 @@
     font-family: var(--font-heading);
     font-size: clamp(32px, 5vw, 48px);
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-accent);
     line-height: 1;
     margin-bottom: 6px;
   }
 
   &__label {
     font-size: var(--text-sm);
-    color: var(--color-muted);
+    color: var(--color-subtle);
     font-weight: 500;
   }
 }
@@ -252,7 +252,7 @@
 
   &__meta {
     font-size: var(--text-xs);
-    color: var(--color-muted);
+    color: var(--color-subtle);
   }
 }
 

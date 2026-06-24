@@ -71,7 +71,7 @@ const d = homeData.whyChooseUs
 
 .why-card__title {
   font-family: var(--font-heading);
-  font-size: var(--text-md);
+  font-size: var(--text-lg);
   font-weight: 700;
   color: var(--color-text);
   margin-bottom: var(--space-xs);

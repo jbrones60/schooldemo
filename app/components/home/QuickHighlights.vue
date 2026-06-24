@@ -49,7 +49,7 @@ const highlights = homeData.highlights
   font-family: var(--font-heading);
   font-size: clamp(32px, 5vw, 48px);
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--color-accent);
   line-height: 1;
   margin-bottom: 6px;
 }
@@ -57,7 +57,7 @@ const highlights = homeData.highlights
 .stat-item__label {
   display: block;
   font-size: var(--text-sm);
-  color: var(--color-muted);
+  color: var(--color-subtle);
   font-weight: 500;
 }
 </style>
