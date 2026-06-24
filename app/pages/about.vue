@@ -30,12 +30,7 @@ const d   = aboutData
           </div>
         </div>
 
-        <!-- CSS placeholder — replaces missing school-building.jpg -->
-        <div class="about-img-placeholder" aria-hidden="true">
-          <span class="about-img-placeholder__icon">🏫</span>
-          <p class="about-img-placeholder__label">{{ schoolInfo.name }}</p>
-          <p class="about-img-placeholder__sub">Est. {{ schoolInfo.establishedYear }}</p>
-        </div>
+        <img :src="d.overview.image" :alt="`${schoolInfo.name} school building`" class="about-building-img" loading="lazy" />
       </div>
     </div>
   </section>
@@ -88,12 +83,7 @@ const d   = aboutData
         align="center"
       />
       <div class="principal-card">
-        <!-- CSS gradient placeholder — replaces missing principal-placeholder.jpg -->
-        <div class="principal-photo" aria-hidden="true">
-          <span class="principal-photo__initial">
-            {{ d.principalMessage.name.split(' ').filter(Boolean).map(w => w[0]).join('').slice(0, 2).toUpperCase() }}
-          </span>
-        </div>
+        <img :src="d.principalMessage.photo" :alt="`${d.principalMessage.name}, ${d.principalMessage.designation}`" class="principal-photo" loading="lazy" />
         <div class="principal-content">
           <blockquote class="principal-quote">
             <p>{{ d.principalMessage.message }}</p>
@@ -173,43 +163,12 @@ const d   = aboutData
   margin-bottom: 0;
 }
 
-// ── School image placeholder ──────────────────────────────────
-.about-img-placeholder {
-  background: linear-gradient(135deg, var(--color-primary-soft) 0%, var(--color-bg-soft) 100%);
+// ── School building image ─────────────────────────────────────
+.about-building-img {
+  width: 100%;
   border-radius: var(--radius-card);
-  border: 1px solid var(--color-border);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
-  gap: var(--space-xs);
-  padding: var(--space-md);
-}
-
-.about-img-placeholder__icon {
-  font-size: 72px;
-  line-height: 1;
+  object-fit: cover;
   display: block;
-  margin-bottom: var(--space-xs);
-}
-
-.about-img-placeholder__label {
-  font-family: var(--font-heading);
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--color-primary);
-  margin-bottom: 0;
-  max-width: none;
-  text-align: center;
-}
-
-.about-img-placeholder__sub {
-  font-size: var(--text-sm);
-  color: var(--color-muted);
-  margin-bottom: 0;
-  max-width: none;
-  text-align: center;
 }
 
 // ── Mission / Vision cards ────────────────────────────────────
@@ -308,25 +267,13 @@ const d   = aboutData
   }
 }
 
-// CSS gradient placeholder for missing principal photo
 .principal-photo {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
   flex-shrink: 0;
-}
-
-.principal-photo__initial {
-  font-family: var(--font-heading);
-  font-size: var(--text-xl);
-  font-weight: 700;
-  color: var(--color-white);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  border: 3px solid var(--color-primary-soft);
 }
 
 .principal-content {

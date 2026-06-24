@@ -26,12 +26,7 @@ const d = homeData.aboutPreview
         <!-- Image column -->
         <div class="about-preview__visual" aria-hidden="true">
           <div class="about-preview__img-wrap">
-            <!-- Real image — uncomment when available -->
-            <!-- <img :src="d.image" :alt="d.imageAlt" class="about-preview__img" loading="lazy" /> -->
-            <div class="about-preview__img-placeholder">
-              <span class="about-preview__img-icon">🏫</span>
-              <span class="about-preview__img-text">School photo coming soon</span>
-            </div>
+            <img :src="d.image" :alt="d.imageAlt" class="about-preview__img" loading="lazy" />
           </div>
 
           <!-- Accent card overlay -->

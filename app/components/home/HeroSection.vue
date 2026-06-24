@@ -43,12 +43,7 @@ const d = homeData.hero
       <!-- Image / visual column -->
       <div class="hero__visual" aria-hidden="true">
         <div class="hero__img-wrap">
-          <!-- Real image — uncomment when available -->
-          <!-- <img :src="d.image" :alt="d.imageAlt" class="hero__img" loading="eager" /> -->
-          <div class="hero__img-placeholder">
-            <span class="hero__img-icon">🏫</span>
-            <span class="hero__img-label">{{ schoolInfo.name }}</span>
-          </div>
+          <img :src="d.image" :alt="d.imageAlt" class="hero__img" loading="eager" />
         </div>
 
         <!-- Floating badge (text comes from home.json) -->

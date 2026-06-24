@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   // Source directory — Nuxt 4 app/ convention
   srcDir: 'app/',
 
+  // Register components by filename only, not directory/filename
+  components: [{ path: '~/components', pathPrefix: false }],
+
   // Global CSS entry point
   css: ['~/assets/scss/main.scss'],
 

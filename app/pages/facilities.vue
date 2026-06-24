@@ -44,10 +44,7 @@ const mainItems     = d.items.filter(i => i.id !== 'cctv-security' && i.id !== '
           :key="item.id"
           class="fac-card"
         >
-          <!-- CSS icon placeholder — replaces missing facility image -->
-          <div class="fac-card__img-placeholder" aria-hidden="true">
-            <span class="fac-card__img-icon">{{ item.icon }}</span>
-          </div>
+          <img :src="item.image" :alt="item.title" class="fac-card__img" loading="lazy" />
           <div class="fac-card__body">
             <h3 class="fac-card__title">{{ item.title }}</h3>
             <p class="fac-card__desc">{{ item.description }}</p>
@@ -155,19 +152,13 @@ const mainItems     = d.items.filter(i => i.id !== 'cctv-security' && i.id !== '
   }
 }
 
-.fac-card__img-placeholder {
-  background: linear-gradient(135deg, var(--color-primary-soft) 0%, var(--color-bg-soft) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
+.fac-card__img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
   border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
-}
-
-.fac-card__img-icon {
-  font-size: 44px;
-  line-height: 1;
 }
 
 .fac-card__body {

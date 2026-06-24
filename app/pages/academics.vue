@@ -51,10 +51,7 @@ const programIcons: Record<string, string> = {
           :key="program.id"
           class="program-card"
         >
-          <!-- CSS image placeholder — no broken img tag -->
-          <div class="program-card__img-placeholder" aria-hidden="true">
-            <span class="program-card__img-icon">{{ programIcons[program.id] || '📚' }}</span>
-          </div>
+          <img :src="program.image" :alt="program.title" class="program-card__img" loading="lazy" />
           <div class="program-card__body">
             <span class="program-card__age">{{ program.ageGroup }}</span>
             <h3 class="program-card__title">{{ program.title }}</h3>
@@ -173,19 +170,13 @@ const programIcons: Record<string, string> = {
   flex-direction: column;
 }
 
-.program-card__img-placeholder {
-  background: linear-gradient(135deg, var(--color-primary-soft) 0%, var(--color-bg-soft) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 140px;
+.program-card__img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
   border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
-}
-
-.program-card__img-icon {
-  font-size: 52px;
-  line-height: 1;
 }
 
 .program-card__body {

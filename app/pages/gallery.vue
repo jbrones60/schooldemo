@@ -75,15 +75,12 @@ const categoryIcons: Record<string, string> = {
           :key="img.id"
           class="gallery-card"
         >
-          <div
-            class="gallery-card__placeholder"
-            role="img"
-            :aria-label="img.alt"
-          >
-            <span class="gallery-card__placeholder-icon" aria-hidden="true">
-              {{ categoryIcons[img.category] || '📷' }}
-            </span>
-          </div>
+          <img
+            :src="img.src"
+            :alt="img.alt"
+            class="gallery-card__img"
+            loading="lazy"
+          />
           <div class="gallery-card__info">
             <span class="gallery-card__badge">{{ img.category }}</span>
             <p class="gallery-card__title">{{ img.title }}</p>
@@ -208,18 +205,12 @@ const categoryIcons: Record<string, string> = {
   }
 }
 
-.gallery-card__placeholder {
-  background: linear-gradient(135deg, var(--color-primary-soft) 0%, var(--color-bg-soft) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.gallery-card__img {
+  width: 100%;
   aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
   border-bottom: 1px solid var(--color-border);
-}
-
-.gallery-card__placeholder-icon {
-  font-size: 48px;
-  line-height: 1;
 }
 
 .gallery-card__info {
