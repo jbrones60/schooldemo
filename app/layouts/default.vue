@@ -4,6 +4,9 @@
     <!-- Skip navigation link (shown on keyboard focus) -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
+    <!-- Demo banner: visible to schools evaluating this product -->
+    <DemoBanner />
+
     <!-- Site header: announcement bar + sticky navbar -->
     <header class="site-header" role="banner">
       <TopAnnouncement />

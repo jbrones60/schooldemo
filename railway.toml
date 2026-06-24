@@ -2,7 +2,7 @@
   buildCommand = "npm run generate"
 
 [deploy]
-  startCommand = "npx serve .output/public --single --listen $PORT"
+  startCommand = "npx serve .output/public --listen $PORT"
   healthcheckPath = "/"
   healthcheckTimeout = 100
   restartPolicyType = "ON_FAILURE"

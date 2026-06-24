@@ -135,7 +135,7 @@ onUnmounted(() => {
 // ── Base navbar ──────────────────────────────────────────────
 .navbar {
   position: sticky;
-  top: 0;
+  top: 37px;
   z-index: 100;
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);

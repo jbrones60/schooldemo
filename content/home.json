@@ -5,7 +5,7 @@
     "subtitle": "A nurturing environment where every child is inspired to dream big, learn deeply, and grow confidently.",
     "ctaPrimary":   { "label": "Apply for Admission", "to": "/admissions" },
     "ctaSecondary": { "label": "Explore Our School",  "to": "/about" },
-    "badge": { "icon": "🎓", "text": "Admissions Open 2025–26" },
+    "badge": { "icon": "🎓", "text": "Admissions Open 2026–27" },
     "image": "/images/hero/school-hero.jpg",
     "imageAlt": "Students learning at Bright Future School"
   },
@@ -113,7 +113,7 @@
   "admissionsCTA": {
     "eyebrow": "Admissions Open",
     "title": "Secure Your Child's Future Today",
-    "description": "Admissions for the academic year 2025–26 are now open. Limited seats available per class. Apply early to avoid disappointment.",
+    "description": "Admissions for the academic year 2026–27 are now open. Limited seats available per class. Apply early to avoid disappointment.",
     "ctaPrimary":   { "label": "Apply Now",          "to": "/admissions" },
     "ctaSecondary": { "label": "View Fee Structure",  "to": "/fee-structure" }
   },
@@ -126,25 +126,25 @@
     "ctaTo": "/notices",
     "items": [
       {
-        "title": "Admissions Open for Academic Year 2025–26",
-        "date": "15 Jan 2025",
+        "title": "Admissions Open for Academic Year 2026–27",
+        "date": "15 Jan 2026",
         "dateShort": { "day": "15", "month": "Jan" },
         "category": "Admissions",
-        "excerpt": "Admissions for 2025–26 are now open. Limited seats available across all sections. Apply early."
+        "excerpt": "Admissions for 2026–27 are now open. Limited seats available across all sections. Apply early."
       },
       {
         "title": "Mid-Term Examination Schedule – Term 2",
-        "date": "5 Sep 2025",
+        "date": "5 Sep 2026",
         "dateShort": { "day": "05", "month": "Sep" },
         "category": "Academics",
-        "excerpt": "Mid-Term Examinations for Term 2 are scheduled from 20th to 28th September 2025. Hall tickets to follow."
+        "excerpt": "Mid-Term Examinations for Term 2 are scheduled from 20th to 28th September 2026. Hall tickets to follow."
       },
       {
-        "title": "Holiday Notice – Summer Vacation 2025",
-        "date": "20 Apr 2025",
+        "title": "Holiday Notice – Summer Vacation 2026",
+        "date": "20 Apr 2026",
         "dateShort": { "day": "20", "month": "Apr" },
         "category": "General",
-        "excerpt": "School will remain closed from 1st May to 31st May 2025. Classes resume 2nd June 2025."
+        "excerpt": "School will remain closed from 1st May to 31st May 2026. Classes resume 2nd June 2026."
       }
     ]
   },
